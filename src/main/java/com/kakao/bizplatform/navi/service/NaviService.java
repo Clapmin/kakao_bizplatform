@@ -32,10 +32,6 @@ public class NaviService {
         this.naviHistRepository = naviHistRepository;
     }
 
-    public void loggerTest() {
-        log.debug("@Slf4j looger testing");
-    }
-
     public void changeNaviStatus(NaviRequestDto request) {
         if (request.isNaviStart()) {
             startNavi(request);
