@@ -3,7 +3,6 @@ package com.kakao.bizplatform.navi.controller;
 import com.kakao.bizplatform.common.dto.CommonApiResponse;
 import com.kakao.bizplatform.navi.dto.NaviRequestDto;
 import com.kakao.bizplatform.navi.service.NaviService;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
