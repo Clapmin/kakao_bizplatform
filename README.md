@@ -33,6 +33,7 @@
 |departure_time|datetime|출발시간|
 |total_distance|int|출발지에서 목적지까지의 거리(meter)|
 |moved_distance|int|이동거리(meter)|
+|points|varchar|위경도 정보|
 |modify_date|datetime|수정시간|
 |register_date|datetime|등록시간|
 
